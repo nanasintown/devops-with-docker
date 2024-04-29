@@ -1,0 +1,26 @@
+docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS     NAMES
+16e99416c371   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   80/tcp    zealous_hypatia
+4da54554aac7   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   80/tcp    sharp_joliot
+69ca7e2d8348   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   80/tcp    gallant_satoshi
+
+
+------------
+
+docker image ls
+REPOSITORY            TAG            IMAGE ID       CREATED        SIZE
+nanacao/sa-frontend   demo           39f07fdda25e   2 weeks ago    188MB
+nanacao/sa-frontend   <none>         503853e0795b   2 weeks ago    188MB
+nanacao/sa-frontend   minikube       4b38513aca89   2 weeks ago    188MB
+nanacao/sa-frontend   <none>         828ccb83f677   2 weeks ago    188MB
+nanacao/sa-frontend   latest         37670273eeed   2 weeks ago    188MB
+nanacao/sa-webapp     demo           da18c41abff4   2 weeks ago    125MB
+nanacao/sa-webapp     latest         da18c41abff4   2 weeks ago    125MB
+nanacao/sa-logic      demo           1f18b0f5f814   2 weeks ago    1.05GB
+nanacao/sa-logic      latest         1f18b0f5f814   2 weeks ago    1.05GB
+nanacao/sa-frontend   <none>         dd70fe6c949d   2 weeks ago    188MB
+nginx                 latest         92b11f67642b   2 months ago   187MB
+kicbase/stable        v0.0.40        c6cc01e60919   9 months ago   1.19GB
+openjdk               8-jdk-alpine   a3562aa0b991   4 years ago    105MB
+python                3.6.6          8256ec07b2ad   5 years ago    918MB
+

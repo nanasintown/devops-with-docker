@@ -1,0 +1,7 @@
+$ docker run -d nginx
+
+$ docker ps          
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+16e99416c371   nginx     "/docker-entrypoint.…"   6 seconds ago    Up 5 seconds    80/tcp    zealous_hypatia
+4da54554aac7   nginx     "/docker-entrypoint.…"   9 seconds ago    Up 8 seconds    80/tcp    sharp_joliot
+69ca7e2d8348   nginx     "/docker-entrypoint.…"   20 seconds ago   Up 19 seconds   80/tcp    gallant_satoshi
