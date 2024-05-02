@@ -4,11 +4,11 @@ WORKDIR /usr/src/app
 
 COPY . .
 
+ENV PORT=8080 REQUEST_ORIGIN=http://localhost:5000
+
 RUN go build
 
 RUN chmod +x ./server
-
-ENV PORT=8080
 
 EXPOSE 8080
 
